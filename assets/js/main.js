@@ -24,6 +24,8 @@ function ticketPrice(){
     }
     /* end: apply discount */
 
+    priceFinal = parseFloat(priceFinal.toFixed(2));
+
     document.getElementById('p_result').innerText = priceFinal;
 
     return priceFinal
