@@ -22,24 +22,32 @@
             Calcolo biglietto treno
         </h1>
 
+        <!-- start: div num. km -->
         <div class="mb-3">
             <label for="kmNumber" class="form-label">Numero di km da percorrere</label>
             <input type="number" class="form-control" id="kmNumber" aria-describedby="emailHelp" placeholder="Per esempio, scrivi: 50">
         </div>
+        <!-- end: div num. km -->
 
+        <!-- start: età -->
         <div class="mb-3">
             <label for="passengerAge" class="form-label">Età passeggero</label>
             <input type="number" class="form-control" id="passengerAge" aria-describedby="emailHelp" placeholder="Per esempio, scrivi: 25">
         </div>
+        <!-- end: età -->
         
+        <!-- start: buttons calcola prezzo -->
         <button type="submit" class="btn btn-primary mb-3" onclick="ticketPrice()">Calcola prezzo biglietto</button>
+        <!-- end: buttons calcola prezzo -->
 
+        <!-- start: prezzo -->
         <div class="mb-3">
             <label for="priceTicket" class="form-label">Il prezzo è:</label>
             <ul class="list-group">
                 <li class="list-group-item" id="p_result">0</li>
             </ul>
         </div>
+        <!-- end: prezzo -->
 
     </div>
     

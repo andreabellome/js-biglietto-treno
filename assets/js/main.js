@@ -10,7 +10,6 @@ function ticketPrice(){
 
     var numberkm = +document.getElementById('kmNumber').value;
     var passengerAge = +document.getElementById('passengerAge').value;
-
     
     var totalPrice = numberkm * ppkm; /* compute total price */
 
