@@ -25,9 +25,13 @@ function ticketPrice(){
 
     priceFinal = parseFloat(priceFinal.toFixed(2));
 
-    document.getElementById('p_result').innerText = priceFinal;
+    let stringPriceFinal = priceFinal.toString();
 
-    return priceFinal 
+    /* document.getElementById('p_result').innerText = priceFinal.toString(); */
+
+    document.getElementById('p_result').innerText = stringPriceFinal.concat("€");
+
+    return priceFinal
 
 }
 
