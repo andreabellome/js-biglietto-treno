@@ -1,5 +1,4 @@
 
-
 function ticketPrice(){
 
     var ppkm = 0.21; /* euro/km */
