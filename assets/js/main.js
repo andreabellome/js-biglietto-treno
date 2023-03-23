@@ -28,7 +28,7 @@ function ticketPrice(){
 
     document.getElementById('p_result').innerText = priceFinal;
 
-    return priceFinal
+    return priceFinal 
 
 }
 
